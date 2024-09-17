@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    margin-top: 17px;
+    display: flex;
+    gap: 230px;
+    align-items: center;
+    margin-bottom: 49px;
+}
+
+.Home-choose {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+    margin-right: 160px;
+    margin-bottom: 21px;
+}
+
+.Home-choose::after {
+    content: ' Food you Love';
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.home-gesture {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.home-gesture input {
+    /* somsani oldiga so'si vlajniy salfetka, saqich */
+    position: relative;
+    padding: 13px 40px;
+    color: #3F6F89;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 50px;
+    border: 1px solid #C4EAFF;
+    background: #C4EAFF;
+    box-shadow: 10px 9px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.home-gesture input::placeholder {
+    color: #3F6F89;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.home-gesture i {
+    position: absolute;
+    transform: translateX(310px);
+    font-size: 30px;
+}
+
+.home-category {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 23px;
+    margin-right: 260px;
+}
+
+.Foods-flexer {
+    display: flex;
+    gap: 15px;
+}
+
+.foods {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 110px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 2px solid #B2E2FC;
+    background: #C4EAFF;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.25);
+}
+
+.foods:hover {
+    border-radius: 25px;
+    border: 2px solid #F8BFD3;
+    background: #C4EAFF;
+    box-shadow: 6px 6px 13px 0px #F681AB;
+}
+
+.foods .foods-title {
+    color: #3B94C5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.foods:hover .foods-title {
+    color: rgba(219, 51, 111, 1);
+    box-shadow: 6px 6px 13px 0px #F681AB rgba(196, 234, 255, 1) rgba(248, 191, 211, 1);
+}
+
+.foods1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 110px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 2px solid #B2E2FC;
+    background: #C4EAFF;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.25);
+}
+
+.foods1:hover {
+    border-radius: 25px;
+    border: 2px solid #F8BFD3;
+    background: #C4EAFF;
+    box-shadow: 6px 6px 13px 0px #F681AB;
+}
+
+.foods1 .foods-title {
+    color: #3B94C5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.foods1:hover .foods-title {
+    color: rgba(219, 51, 111, 1);
+    box-shadow: 6px 6px 13px 0px #F681AB rgba(196, 234, 255, 1) rgba(248, 191, 211, 1);
+}
+
+.foods2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 110px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 2px solid #B2E2FC;
+    background: #C4EAFF;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+
+.foods2:hover {
+    border-radius: 25px;
+    border: 2px solid #F8BFD3;
+    background: #C4EAFF;
+    box-shadow: 6px 6px 13px 0px #F681AB;
+}
+
+.foods2 .foods-title {
+    color: #3B94C5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.foods2:hover .foods-title {
+    color: rgba(219, 51, 111, 1);
+    box-shadow: 6px 6px 13px 0px #F681AB rgba(196, 234, 255, 1) rgba(248, 191, 211, 1);
+}
+
+.burgers-food-flexer {
+    display: flex;
+    gap: 20px;
+    width: 400px;
+    flex-wrap: wrap;
+    transform: translateX(20px);
+}
+
+.burgers {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 53px;
+    margin-bottom: 34px;
+    margin-right: 280px;
+}
+
+.Burgers-food {
+    width: 171px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #8ED1F6 70.53%, rgba(215, 63, 118, 0.00) 123.4%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.Burgers-food:hover {
+    border-radius: 40px;
+    background: linear-gradient(180deg, #FF005C 80.85%, rgba(241, 8, 50, 0.00) 123.4%);
+    width: 196px;
+    height: 265px;
+}
+
+.Burgers-food:hover .burger-title {
+    color: #FFF;
+}
+
+.Burgers-food:hover .burger-cost {
+    color: #FFF;
+}
+
+.Burgers-food .burger-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.Burgers-food .burger-cost {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 50px;
+}

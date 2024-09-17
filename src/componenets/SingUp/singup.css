@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.headerr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tacos-images .image1 {
+    position: relative;
+    z-index: -100;
+}
+
+.Tacos-images .image2 {
+    position: absolute;
+    transform: translateX(-300px) translateY(115px);
+    z-index: 1;
+}
+
+.Tacos-images .image3 {
+    position: absolute;
+    transform: translateX(-400px) translateY(-30px);
+    z-index: -1000;
+}
+
+.Account {
+    position: absolute;
+    width: 346px;
+    height: 501px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #5E5B5B;
+    background: #FFF;
+    mix-blend-mode: darken;
+    box-shadow: 9px 9px 11px 0px rgba(0, 0, 0, 0.25);
+    /* backdrop-filter: blur(12.5px); */
+    transform: translateY(286px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Account .acc-input-1 {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #BAA;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 124.023%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.Account .acc-input-2 {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #BAA;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 124.023%;
+    margin-bottom: 20px;
+}
+
+.Account .acc-submit {
+    color: #FFF;
+    font-family: "Istok Web", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 124.023%;
+    padding: 4px 35px;
+    border-radius: 50px;
+    background: #D7145A;
+    border: unset;
+    margin-bottom: 17px;
+}
+
+.Account .Or {
+    color: #BAA;
+    font-family: "Istok Web", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.023%;
+    margin-bottom: 10px;
+}
+
+.Account .acc-google {
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+@media (max-width: 576px) {}
+@media (max-width: 480px) {}
+@media (max-width: 412px) {}
+@media (max-width: 375px) {
+    .headerr {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 320px) {}
